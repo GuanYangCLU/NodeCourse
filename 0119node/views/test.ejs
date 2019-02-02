@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>TO Chicken Moon Launch</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+	<div>
+		<p>number <%= number %> result is like:</p>
+		<ul>
+			<%
+				for (var i = 0; i < resultsArr.length; i++){
+			%>
+				<li><%= resultsArr[i] %></li>
+			<%
+				}
+			%>
+		</ul>
+	</div>
+
+</body>
+</html>
+
